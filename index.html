@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="shortcut icon"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="maincontainer">
+      <header class="headercontainer">
+        <a href=""><img src="image/netflix.svg" alt="netflixlogo" /> </a>
+      </header>
+      <h1>Sign In</h1>
+      <form action="">
+        <div class="forinput">
+          <input type="text" id="signininput" class="form-control" required />
+          <label for="email" class="form-label">Email or mobile number</label>
+        </div>
+        <div class="forinput">
+          <input
+            type="password"
+            id="passwordinput"
+            class="form-control"
+            required
+          />
+          <label for="password" class="form-label">Password</label>
+        </div>
+        <div class="signinbutton">
+          <button class="signinbut" type="submit">Sign in</button>
+        </div>
+        <p class="ptext">OR</p>
+        <div class="signincode">
+          <button class="signco">Use a sign-in Code</button>
+        </div>
+        <a
+          class="forgetpasswordreset"
+          data-uia="login-help-link"
+          href="/LoginHelp"
+        >
+          <span class="resetpassword">Forgot password?</span>
+        </a>
+      </form>
+      <footer class="footerr">
+        <div class="check">
+          <div class="textandicon">
+            <input type="text" id="chechboxin" />
+            <img
+              src="image/check_17689303.png"
+              alt=""
+              srcset=""
+              id="imageone"
+              onclick="changeimage(imageone)"
+            />
+          </div>
+          <label for="checkbox" class="remeberme">Remember me </label>
+        </div>
+        <p>
+          New to Netflix?
+          <a href=""> <span class="sigupnow"> Sign up now.</span></a>
+        </p>
+        <p class="verification">
+          This page is protected by Google reCAPTCHA to ensure you're not a bot.
+          <span><a href=""> Learn more</a></span>
+        </p>
+      </footer>
+    </div>
+    <footer class="footer-two">
+      <footer class="subfooter-two">
+        <div>
+          <div class="question">
+            <a href="https://help.netflix.com/contactus"
+              >Questions? Contact us.</a
+            >
+          </div>
+        </div>
+      </footer>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
+<!-- <i class="fa-thin fa-check fa-2xs"></i> -->
