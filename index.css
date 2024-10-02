@@ -104,31 +104,29 @@ input:valid + label {
   text-align: center;
   font-size: 17px;
 }
-.check #chechboxin {
-  width: 20px;
-  background-color: white;
-  border-color: white;
-  border-radius: 3px;
+.check #checkboxs {
+  width: 22px;
   height: 20px;
+  border-radius: 5px;
   border: 1px solid rgba(128, 128, 128, 0.7);
-}
-.textandicon img {
-  position: relative;
-  width: 25px;
-  top: 6px;
-  right: 24px;
-  background-color: #888;
+  margin-right: 10px;
 }
 
-/* input[type="checkbox"] {
-  accent-color: rgb(75, 71, 71);
-  margin-top: 0px;
-}
-.footerr input[type="checkbox"] {
-  width: 20px;
+.check img {
+  display: none;
+  width: 22px;
   height: 20px;
-  accent-color: rgb(75, 71, 71);
-} */
+  border-radius: 2px;
+  background-color: white;
+  background-size: 10px;
+  margin-right: 10px;
+}
+.check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 
 .footerr .New {
   color: #861717;
@@ -144,15 +142,8 @@ a {
   font-weight: 500;
 }
 .footerr .remeberme {
-  font-size: 20px;
+  font-size: 15px;
   color: white;
-  margin-left: 10px;
-}
-.check {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
 }
 .verification {
   font-size: 13px;
@@ -170,5 +161,25 @@ a {
   border-top: 1px solid rgba(128, 128, 128, 0.7);
 }
 .subfooter-two {
-  padding: 0px;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.row {
+  gap: 200px;
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  font-size: 14px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
